@@ -1,8 +1,168 @@
+body{
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+nav{
+  display: inline;
+}
+.leftnav, .rightnav, .leftfoot, .rightfoot{
+  display: inline-block;
+  color: white;
+  padding: 8px 18px;
+  text-decoration: none;
+  height: 24px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
+
+.leftnav{
+  float: left;
+}
+.rightnav{
+  float: right;
+}
+
+.leftnav a, .rightnav a{
+  padding: 0px 7px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: rgb(0,0,0,0.87);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.rightnav button{
+  background-color: rgb(66, 133, 244);
+  border-radius: 2px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border: none;
+  line-height: 28px;
+  padding-left: 12px;
+  padding-right: 12px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.rightnav img{
+  vertical-align: middle;
+  max-height: 80%;
+  max-width: 100%;
+  opacity: .55;
+}
+
+.main{
+  margin: auto;
+  padding-top: 82px;
+  text-align: center;
+  width: 100%;
+}
+
+.logo{
+  margin: auto;
+  padding-top: 109px;
+  padding-bottom: 20px;
+}
+
+.searchbar{
+  width: 580px;
+  height: 40px;
+  box-shadow: 1px 1px 1px 1px rgb(200, 200, 200, 0.85);
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.searchbar img{
+  width: 15px;
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+
+.searchbar input{
+  width: 90%;
+  height: 34px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: block;
+  padding-left: 10px;
+  border: none;
+}
+.buttons{
+  padding-top: 28px;
+}
+.buttons button{
+  color: rgb(117, 117, 117);
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 36px;
+  padding: 0px 16px;
+  border-width: 1px;
+  border-color: rgb(242,242,242);
+  border-style: solid;
+  background-color: rgb(242,242,242);
+  margin: 4px;
+}
+.buttons button:hover{
+  border-style: solid;
+  border-idth: 1px;
+  border-radius: 2px;
+  border-color: rgb(200,200,200);
+}
+
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.leftfoot{
+  position: relative;
+  padding-left: 0px;
+  bottom: 10px;
+}
+
+.rightfoot{
+  float: right;
+  position: relative;
+  right: 25px;
+  bottom: 10px;
+}
+
+.leftfoot a, .rightfoot a{
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  line-height: 40px;
+  padding-left: 27px;
+}
+
+.topfoot {
+  padding-left: 27px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+}
+
+.leftfoot a:hover, .rightfoot a:hover{
+  text-decoration: underline;
+}
+/*
 html {
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
   min-width: 900px;
 }
 body {
@@ -17,14 +177,34 @@ main {
   text-align: center;
 }
 
-nav {
+nav .leftnav{
   position: relative;
-  left: 79%;
+  float: left;
+  bottom: 4px;
+}
+
+nav .rightnav{
+  float: right;
+  position: relative;
+  bottom: 18px;
+
+}
+nav {
+  display: block;
+  font-family: Arial;
+}
+
+nav a{
+  color: black;
+}
+
+nav div{
+  margin: 16px;
 }
 
 nav a{
   font-size: 13px;
-  margin-right: 16px;
+  margin-right: 13px;
 }
 
 nav button {
@@ -88,6 +268,26 @@ button{
 }
 
 footer{
+  background-color: #EFEFEF;
+  height: 10px;
+  font-size: 14px;
+  color: red;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  padding-bottom: 60px;
+  border: 1px solid rgb(212, 210, 212, 1);
+
+}
+
+footer a{
+  margin-right: 20px;
+}
+*/
+/*
+footer{
   height: 10px;
   font-size: 14px;
   color: #6f6f6f;
@@ -120,13 +320,14 @@ footer{
 footer a{
     margin-right: 20px;
 }
+
 #microphone-link{
     position: relative;
     left: -42px;
     color: #FFFF00;
     opacity: 0;
 }
-/*hor offset + -> right, ver offset - -> above, blur 0 -> sharp, spread + -> shadow size*/
+/*hor offset + -> right, ver offset - -> above, blur 0 -> sharp, spread + -> shadow size
 .shadow {
     box-shadow: 0 1px 2px 0.5px #ccc;
     -moz-box-shadow : 0 1px 2px 0.5px #ccc;
@@ -155,3 +356,4 @@ a:active{
     color: #686868;
     text-decoration: none;
 }
+*/
