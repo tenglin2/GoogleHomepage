@@ -3,7 +3,7 @@
 ### Overview
 This is the first mini project that I made when just starting out with learning Web Development. The task is to create a clone of the iconic Google Homepage.
 
-> To view the page in browser, please click [here](https://tenglin2.github.io/GoogleHomepage).
+> To view the page in browser, please click [here](https://tenglin2.github.io/GoogleHomepage/).
 
 ### Languages Used
 - HTML
