@@ -23,11 +23,23 @@ nav{
   float: right;
 }
 
-.leftnav a, .rightnav a{
+.leftnav a{
   padding: 0px 7px;
   vertical-align: middle;
   text-decoration: none;
-  color: rgb(0,0,0,0.87);
+  color: rgb(0,0,0,0.75);
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+.rightnav a{
+  padding: 0px 7px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: rgb(0,0,0,0.75);
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
 
 a:hover{
@@ -67,6 +79,10 @@ a:hover{
   margin: auto;
   padding-top: 109px;
   padding-bottom: 20px;
+}
+.logo img{
+  height: 95px;
+  width: 280px;
 }
 
 .searchbar{
@@ -153,207 +169,11 @@ a:hover{
   font-size: 15px;
   color: rgb(102, 102, 102);
 }
+.bottomfoot{
+  background-color: #eaecee;
+
+}
 
 .leftfoot a:hover, .rightfoot a:hover{
   text-decoration: underline;
 }
-/*
-html {
-  height: 100%;
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: auto;
-  min-width: 900px;
-}
-body {
-  font-family: arial, sans-serif;
-  height: 100%;
-  width: 100%;
-}
-
-main {
-  height: 100%;
-  width: 100%;
-  text-align: center;
-}
-
-nav .leftnav{
-  position: relative;
-  float: left;
-  bottom: 4px;
-}
-
-nav .rightnav{
-  float: right;
-  position: relative;
-  bottom: 18px;
-
-}
-nav {
-  display: block;
-  font-family: Arial;
-}
-
-nav a{
-  color: black;
-}
-
-nav div{
-  margin: 16px;
-}
-
-nav a{
-  font-size: 13px;
-  margin-right: 13px;
-}
-
-nav button {
-  height: 28px;
-  width: 68px;
-  margin-top: 10px;
-  background-color: #4889f6;
-  color: white;
-  border-radius: 2px;
-  font-size: 12px;
-}
-
-#google_app_img {
-  height: 21px;
-  position: relative;
-  top: 4px;
-  margin-right: 16px;
-}
-
-#brand{
-  height: 90px;
-  width: 280px;
-  margin-top: 12%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-input#url{
-  margin-top: 25px;
-  height: 40px;
-  width: 550px;
-  background-position: 98% 3px;
-  background-image: url('images/google-microphone.png');
-  background-size: 28px;
-  background-repeat: no-repeat;
-  border-radius: 3.5px;
-  border: 1px solid #E7E7E7;
-  padding-left: 15px;
-  font-size: 14px;
-}
-
-button{
-  background-color: rgb(244,244,244);
-  border-radius: 0;
-  height: 35px;
-  width: 135px;
-  border: 0;
-  margin-top: 30px;
-  color: #686868;
-  font-weight: bold;
-  font-size: 13px;
-}
-
-#search-btn{
-  margin-right: 2px;
-}
-
-#lucky-btn{
-  margin-left: 2px;
-}
-
-footer{
-  background-color: #EFEFEF;
-  height: 10px;
-  font-size: 14px;
-  color: red;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: left;
-  padding-bottom: 60px;
-  border: 1px solid rgb(212, 210, 212, 1);
-
-}
-
-footer a{
-  margin-right: 20px;
-}
-*/
-/*
-footer{
-  height: 10px;
-  font-size: 14px;
-  color: #6f6f6f;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #EFEFEF;
-  text-align: left;
-  padding-bottom: 60px;
-  border: 1px solid rgb(212, 210, 212, 1);
-}
-
-.footer-top{
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 100;
-}
-.footer-bottom{
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 13px;
-    border-top: #c9c9c9 solid .5px;
-}
-.footer-br{
-    float: right;
-}
-footer a{
-    margin-right: 20px;
-}
-
-#microphone-link{
-    position: relative;
-    left: -42px;
-    color: #FFFF00;
-    opacity: 0;
-}
-/*hor offset + -> right, ver offset - -> above, blur 0 -> sharp, spread + -> shadow size
-.shadow {
-    box-shadow: 0 1px 2px 0.5px #ccc;
-    -moz-box-shadow : 0 1px 2px 0.5px #ccc;
-    -webkit-box-shadow: 0 1px 2px 0.5px #ccc;}
-input:focus {
-    outline: none;
-    -webkit-box-shadow: 0 3px 8px 1px #ccc;
-    -moz-box-shadow: 0 3px 8px 1px #ccc;
-}
-
-input:hover {
-    -webkit-box-shadow: 0 3px 8px 1px #ccc;
-    -moz-box-shadow: 0 3px 8px 1px #ccc;
-    box-shadow: 0 3px 8px 1px #ccc;
-}
-
-a{
-    color: #686868;
-    text-decoration: none;
-}
-a:hover{
-    color: #686868;
-    text-decoration: underline;
-}
-a:active{
-    color: #686868;
-    text-decoration: none;
-}
-*/
